@@ -1,0 +1,80 @@
+#anime-page.inactive {
+	width: 0; height: 0;
+	transition: none;
+}
+
+#anime-page {
+	display: block;
+	height: 100%;
+	width: 100%;
+	
+	/* padding: 20px; */
+	/* padding-top: 50px; */
+	transition: opacity .5s;
+	background-image: url(https://i.ibb.co/KqYGB5t/image.webp); /* shower */
+	background-image: url(https://i.ibb.co/WVyzpvz/image.webp); /* spring room */
+	background-image: url(https://i.ibb.co/8dbTJbM/image.webp); /* sitting room */
+	background-image: url(https://i.ibb.co/9tbsVCB/image.webp); /* bed room */
+	background-image: url(https://i.ibb.co/jGGGYw4/image.webp); /* japan feild */
+	
+
+	background-repeat: no-repeat;
+	background-color: #cccccc;
+	background-position: center;
+	background-size: auto 100%;
+
+}
+
+#anime-page.hidden {
+	opacity: 0;
+	touch-action: none;
+	pointer-events: none;
+}
+
+.character {
+	position: absolute;
+	height: 90%;
+	bottom: 0;
+	z-index: 1;
+	/* transform: translateX(50%); */
+}
+
+.character#canvas {
+	position: absolute;
+	/* margin-left: -100px; */
+}
+
+#to-chat, #to-install, #to-open-pwa , #maximize-page {
+	position: absolute;
+	/* justify-content: center; */
+	bottom: 0;
+	right: 0;
+	width: auto;
+	margin: 20px;
+	padding: 10px 10px 0 10px ;
+	font-size: x-large;
+	transform: translateY(-50%);
+	height: 50px;
+	background-color: #000000;
+	border-top: 1px solid #ddd;
+	border-radius: 10px;
+	z-index: 10;
+}
+
+#to-install, #to-open-pwa, #maximize-page {
+	display: none;
+	
+	top: 0;
+	padding-bottom: 10px;
+	height: 30px;
+	
+}
+
+
+#maximize-page {
+	display: block;
+	left: 0;
+	right: auto;
+	width: minimum-content;
+	transition: all 0.5s;
+}

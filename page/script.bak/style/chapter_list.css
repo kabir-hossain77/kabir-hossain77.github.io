@@ -1,0 +1,52 @@
+/*=========CHAPTER-LIST=========*/
+#allA {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+#manga_name {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+}
+
+#description-text {
+	color: var(--theme-color-text);
+}
+
+
+
+
+.small-tag {
+	position: relative;
+	background-color: red;
+	color: white;
+	padding: 1px 3px 0 3px;
+	border-radius: 3px;
+	top: -2px;
+	font-size: 0.45em;
+	font-weight: 900;
+	font-family: "Koulen", Monospace;
+}
+
+.tag {
+	background-color: #444;
+	color: #fff;
+	padding: 3px 5px 3px 5px;
+	border-radius: 2px;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.ch-list-item{
+	text-align: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.ch-search-item {
+	max-width: 700px;
+}
